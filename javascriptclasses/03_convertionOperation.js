@@ -157,3 +157,49 @@ console.log(typeof s)
 
 console.table([typeof p, typeof q, typeof r, typeof s])
 console.table([p,q,r,s])
+
+
+// ****************************Operations************************************
+let value=2
+let negValue=-value
+console.log(negValue)
+
+console.log(2+2)
+console.log(2-2)
+console.log(2/2)
+console.log(2*2)
+console.log(2**2)
+console.log(2%2)
+
+let str1="Ali"
+let str2=" Ahmed"
+str3=str1+str2
+console.log(str3);
+
+console.log("1" + 2)
+console.log(1 + "2")
+console.log("1" + 2 + 3)
+console.log(1 + "2" + 3)
+console.log(1 + 2 + "3")
+console.log(1 + 2 + "3" + 4)
+console.log("1" + (2 + 3))
+
+console.log(+true)
+console.log(-true)
+console.log(+"")
+let int=100
+++int
+console.log(int)
+let num1=100
+num1--
+console.log(`num1:${num1}`)
+
+// Prefix and Postfix
+
+let x=5
+let y=++x
+console.log(`x:${x},y:${y}`) 
+
+let v=3
+let w= v++
+console.log(`v:${v},b:${w}`)
